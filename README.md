@@ -1,6 +1,6 @@
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/e-lims-d2xx)
 ![CI](https://github.com/FabienMeyer/e-lims-d2xx/actions/workflows/ci.yml/badge.svg)
-![Codecov](https://img.shields.io/codecov/c/github/FabienMeyer/e-lims-d2xx)
+[![Codecov](https://codecov.io/gh/FabienMeyer/e-lims-d2xx/graph/badge.svg?token=xp3TKuNLKh)](https://codecov.io/gh/FabienMeyer/e-lims-d2xx)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=FabienMeyer_e-lims-d2xx&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=FabienMeyer_e-lims-d2xx)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=FabienMeyer_e-lims-d2xx&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=FabienMeyer_e-lims-d2xx)
 ![PyPI](https://img.shields.io/pypi/v/e-lims-d2xx.svg)

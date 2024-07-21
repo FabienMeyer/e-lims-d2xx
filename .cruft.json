@@ -1,0 +1,22 @@
+{
+  "template": "https://github.com/FabienMeyer/e-lims-cruft.git",
+  "commit": "34a57bcec6131a04275ed1536ee010999189667b",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "full_name": "Fabien Meyer",
+      "email": "fabien-meyer@outlook.com",
+      "project_name": "e-lims-d2xx",
+      "project_slug": "e_lims_d2xx",
+      "project_short_description": "FTDI Chip driver",
+      "project_git_repository": "FabienMeyer/e-lims-d2xx",
+      "sonarcloud": "FabienMeyer_e-lims-d2xx",
+      "version": "0.0.1",
+      "_copy_without_render": [
+        ".github/*"
+      ],
+      "_template": "https://github.com/FabienMeyer/e-lims-cruft.git"
+    }
+  },
+  "directory": null
+}

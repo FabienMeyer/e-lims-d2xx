@@ -1,3 +1,9 @@
 {
-    "iis.configDir": ""
+    "iis.configDir": "",
+    "files.associations": {
+        "format": "c",
+        "pydevice.h": "c",
+        "pyclass_device.h": "c",
+        "device.h": "c"
+    }
 }

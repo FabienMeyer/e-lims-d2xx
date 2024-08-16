@@ -1,0 +1,33 @@
+#ifndef _PYDEVICE_H
+#define _PYDEVICE_H
+
+#include <Python.h>
+
+
+///////////////////////////////////////////////////////////////////////////////
+// Types definition
+///////////////////////////////////////////////////////////////////////////////
+
+/**
+ * @brief Ftd2xxDeviceObject_t structure
+ *
+ * This structure is used to store the objects' data.
+ *
+ */
+typedef struct {
+    PyObject_HEAD // Only needed in base class
+    FT_HANDLE handle; //Handle
+} Ftd2xxDeviceObject_t;
+
+
+///////////////////////////////////////////////////////////////////////////////
+// External variables declaration
+///////////////////////////////////////////////////////////////////////////////
+
+/**
+ * @brief Ftd2xxDevice class configuration structure.
+ */
+extern PyTypeObject Ftd2xxDevice_Type;
+
+
+#endif // _PYCLASS_DEVICE_H

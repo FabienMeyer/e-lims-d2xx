@@ -23,6 +23,8 @@ theme:
 
 nav: # Setting up the navigation. Te below list will be tabs on left panel
   - Home: index.md
+  - Modules:
+    - D2XX: modules/d2xx_device.md
   - Changelog: changelog.md
   - Contributing: contributing.md
   - Code of Conduct: code_of_conduct.md

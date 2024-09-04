@@ -1,5 +1,5 @@
-from .e_lims_d2xx import *
-from _typeshed import Incomplete
+__all__ = ['Ftd2xxDevice', 'Ftd2xxError']
 
-__version__: str
-extra_dll_dir: Incomplete
+# Names in __all__ with no definition:
+#   Ftd2xxDevice
+#   Ftd2xxError

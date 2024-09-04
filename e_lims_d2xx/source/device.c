@@ -2,7 +2,7 @@
 #include <ftd2xx.h>
 #include "device.h"
 
-FT_STATUS get_device_information(FT_HANDLE ftHandle, uint32_t id, device_information_t* information)
+FT_STATUS get_device_information_detail(FT_HANDLE ftHandle, uint32_t id, device_information_t* information)
 {
     FT_STATUS ftStatus;
     FT_HANDLE ftHandleTemp;

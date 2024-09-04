@@ -19,13 +19,13 @@ typedef struct {
 
 
 /**
- * @brief Get the device information.
+ * @brief Get the device information detail.
  *
  * @param ftHandle The device handle
  * @param id The device id
  * @param information A pointer to device_information_t where the information will be written
  * @return The status of the operation
  */
-FT_STATUS get_device_information(FT_HANDLE ftHandle, uint32_t id, device_information_t* information);
+FT_STATUS get_device_information_detail(FT_HANDLE ftHandle, uint32_t id, device_information_t* information);
 
 #endif // _DEVICE_H

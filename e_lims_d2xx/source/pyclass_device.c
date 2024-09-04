@@ -9,12 +9,11 @@
 
 #include <stdlib.h>
 #include <stdint.h>
-
-
+ 
 /**
  * @brief Method get_information docstring
  */
-static const char method_get_information_doc[] = \
+static const char method_get_information_detail_doc[] = \
 "get_information(self, index: int) -> Tuple[int, int, int, int, str, str]\n\
 \n\
 Get the device information\n\
@@ -35,7 +34,7 @@ Get the device information\n\
 \n\
 :raises FtError: when the info could not be read.\n\
 \n";
-static PyObject *method_get_information(Ftd2xxDeviceObject_t *self, PyObject *args)
+static PyObject *method_get_information_detail(Ftd2xxDeviceObject_t *self, PyObject *args)
 {
     FT_STATUS ftStatus = FT_OK;
     int index;
@@ -49,7 +48,7 @@ static PyObject *method_get_information(Ftd2xxDeviceObject_t *self, PyObject *ar
 
     Py_BEGIN_ALLOW_THREADS
 
-    ftStatus = get_device_information(self->handle, index, &information);
+    ftStatus = get_device_information_detail(self->handle, index, &information);
 
     Py_END_ALLOW_THREADS
 
@@ -97,7 +96,7 @@ static PyMemberDef members_device[] = {
  * @brief Ftd2xxDevice methods
  */
 static PyMethodDef methods_device[] = {
-    {"get_information", (PyCFunction)method_get_information, METH_VARARGS, method_get_information_doc},
+    {"get_information", (PyCFunction)method_get_information_detail, METH_VARARGS, method_get_information_detail_doc},
     {NULL, NULL, 0, NULL} // Sentinel
 };
 
